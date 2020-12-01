@@ -7,6 +7,11 @@
 html {
   font-size: 16px;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
 /* clean code after */
 /* .flex-column {
         display: flex;
@@ -25,12 +30,23 @@ body {
   background-color: rgb(230, 213, 230);
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 
-#header h1 {
+header {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
   font-size: 4rem;
   text-decoration: underline;
+}
+
+header a {
+  font-size: 3rem;
+  padding-left: 5vw;
 }
 
 /*******************HOME PAGE*************** */
