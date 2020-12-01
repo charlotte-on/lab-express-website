@@ -12,6 +12,7 @@ app.locals.copyright = `<p>Copyright © The cooking club 2020</p>`;
 app.get("/", (req, res) => {
   res.render("home", {
     pageTitle: "Homepage",
+    image: "/images/banana-bread.jpg",
     ingredients: [
       `3 bananas`,
       `100g of sugar`,

@@ -9,15 +9,24 @@ html {
 }
 /*******************LAYOUTS*************** */
 
-/*******************HOME PAGE*************** */
-
-/* ******************HOME PAGE*************** */
-.about {
+body {
   width: 100vw;
   height: 100vh;
   background-color: rgb(230, 213, 230);
   display: flex;
   flex-direction: column;
+}
+
+#header h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 4rem;
+  text-decoration: underline;
+}
+
+/*******************HOME PAGE*************** */
+
+/* ******************HOME PAGE*************** */
+.about {
   justify-content: center;
   align-items: center;
 }
