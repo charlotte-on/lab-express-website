@@ -1,20 +1,36 @@
-<section class="about">
+<section class="about flex-column">
         <h1 class="heading-about">Cooking Team</h1>
         <div class="information">
                 {{#each admins}}
-                <div class="person-info">
+                <div class="person-info flex-row">
                         <div class="person-info-image">
                                 <img src={{this.urlImage}} alt={{this.name}} class="avatar">
                         </div>
                         <div class="person-info-details">
                                 <p>Name: <strong>{{this.name}}</strong></p>
                                 <p>Age: <strong>{{this.age}}</strong> years old</p>
-                                <a href={{this.link}}><img src="./images/github.png" alt="logo" class="logo"></a>
+                                <p>Contact:
+                                        <a href={{this.link.[0]}}><img src="./images/github.png" alt="logo"
+                                                        class="logo"></a>
+                                        <a href={{this.link.[1]}}><img src="./images/fb.png" alt="logo"
+                                                        class="logo"></a>
+                                        <a href={{this.link.[2]}}><img src="./images/linkedin.png" alt="logo"
+                                                        class="logo"></a>
+                                </p>
                         </div>
 
 
                 </div>
                 {{/each}}
+        </div>
+
+        <div class="slideshow">
+                {{#each gallery}}
+                <div class="slideshow-item fade">
+                        <img src={{this}} alt="image">
+                </div>
+                {{/each}}
+
         </div>
 
 </section>

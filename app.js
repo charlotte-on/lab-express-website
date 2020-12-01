@@ -70,15 +70,27 @@ app.get("/about", (req, res) => {
         name: "Charlotte Oury",
         age: 29,
         urlImage: "/images/Charlotte.jpg",
-        link: "https://github.com/charlotte-on",
+        link: [
+          "https://github.com/charlotte-on",
+          "https://www.facebook.com/",
+          "https://www.linkedin.com/"
+        ]
       },
       {
         name: "Xuan TRAN",
         age: 29,
         urlImage: "/images/xuan.jpg",
-        link: "https://github.com/tranttxuan",
+        link: ["https://github.com/tranttxuan",
+          "https://www.facebook.com/",
+          "https://www.linkedin.com/"
+        ]
       },
     ],
+    gallery:[
+      "images/banana-bread.jpg",
+      "images/butternut.jpeg",
+      "images/falafel.jpg",
+    ]
   });
 });
 
