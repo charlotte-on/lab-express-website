@@ -1,9 +1,9 @@
 
-    <article id="recipe">
+    <article id="banana-bread">
         <h2>Banana bread</h2>
-        <img src="{{image}}" alt="banana bread">
+        <img src="{{imageBanana}}" alt="banana bread">
         <h3>Ingredients :</h3>
-            {{#each ingredients}}
+            {{#each ingredientsBanana}}
                 <ul>
                 <li>{{this}}</li>
                 </ul>
@@ -11,7 +11,43 @@
 
                 <hr>
 
-                {{#each instructions}}
+                {{#each instructionsBanana}}
+                    <p>{{this}}</p>
+                {{/each}}
+
+    </article>
+
+    <article id="butternut-soup">
+        <h2>Butternut soup</h2>
+        <img src="{{imageButternut}}" alt="banana bread">
+        <h3>Ingredients :</h3>
+            {{#each ingredientsButternut}}
+                <ul>
+                <li>{{this}}</li>
+                </ul>
+                {{/each}}
+
+                <hr>
+
+                {{#each instructionsButternut}}
+                    <p>{{this}}</p>
+                {{/each}}
+
+    </article>
+
+        <article id="falafel">
+        <h2>Falafel</h2>
+        <img src="{{imageFalafel}}" alt="banana bread">
+        <h3>Ingredients :</h3>
+            {{#each ingredientsFalafel}}
+                <ul>
+                <li>{{this}}</li>
+                </ul>
+                {{/each}}
+
+                <hr>
+
+                {{#each instructionsFalafel}}
                     <p>{{this}}</p>
                 {{/each}}
 

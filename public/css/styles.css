@@ -57,7 +57,7 @@ header a {
 
 /*******************HOME PAGE*************** */
 
-#recipe {
+article {
   padding: 2vh 2vw;
   margin: 3vh 15vw;
   background-color: whitesmoke;
@@ -66,21 +66,21 @@ header a {
   text-align: center;
 }
 
-#recipe h3 {
+article h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-#recipe img {
+article img {
   border: 1px grey solid;
   width: 35vw;
   margin: 2vh;
 }
 
-#recipe p {
+article p {
   text-align: left;
 }
 
-#recipe hr {
+article hr {
   margin: 2vh;
 }
 
