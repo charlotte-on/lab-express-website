@@ -25,6 +25,11 @@ app.get("/", (req, res) => {
       `165g of flour`,
       `5g of baking powder`,
     ],
+    instructions: [
+      "Preheat your oven at 160°C. Mash the bananas with a fork and add the sugar. Put the spices, the almond powder, salt and the oil. Gently add the flour and the baking powder.",
+      "Grease and flour the baking dish, pour the mix in it and put it the oven 160°c. Leave it 40-50minutes in the oven, check with the tip of a knife.",
+      "Let it cool a little bit, then film it and leave it to rest. If you can wait until the next day to eat it, it will be even better.",
+    ],
   });
 });
 
