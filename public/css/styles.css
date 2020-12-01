@@ -17,9 +17,44 @@ html{
 
 
 /* ******************HOME PAGE*************** */
+.about{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(230, 213, 230);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+}
+.about > h1{
+        font-size: 4rem;
+        margin-bottom: 4rem;
+}
+.information{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+}
+.person-info{
+        border: 1px solid black; 
+        border-radius: 10px;  
+        display: flex;
+        flex-direction: row;
+}
+.person-info-image{
+        
+}
+.person-info-details{
+        font-size: 2rem;
+}
 .avatar{
-        width: 100px;
-        height: 100px;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+
 }
 .logo{
         width: 20px;
