@@ -1,0 +1,9 @@
+<h1>Cooking Team</h1>
+{{#each admins}}
+<div class="person-info">
+        <img src={{this.urlImage}} alt={{this.name}} class="avatar">
+        <p>Name: </p><strong>{{this.name}}</strong> 
+        <p>Age: </p><strong>{{this.age}}</strong>
+        <a href={{this.link}}><img src="./images/github.png" alt="logo" class="logo"></a>
+</div>
+{{/each}}

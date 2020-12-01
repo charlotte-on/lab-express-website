@@ -1,0 +1,27 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+html{
+        font-size: 16px;
+}
+/*******************LAYOUTS*************** */
+
+
+
+
+/*******************HOME PAGE*************** */
+
+
+
+/* ******************HOME PAGE*************** */
+.avatar{
+        width: 100px;
+        height: 100px;
+}
+.logo{
+        width: 20px;
+        height: 20px;
+}

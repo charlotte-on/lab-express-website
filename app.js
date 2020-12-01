@@ -19,8 +19,15 @@ app.get("/about", (req, res) => {
     admins:[
       {
         name:"Charlotte Oury" ,
-        age: 29
-
+        age: 29,
+        urlImage: '/images/Charlotte.jpg',
+        link: "https://github.com/charlotte-on"
+      },
+      {
+        name:"Xuan TRAN" ,
+        age: 29,
+        urlImage: '/images/xuan.jpg',
+        link:"https://github.com/tranttxuan"
       }
     ]
   });
