@@ -66,7 +66,8 @@ article {
   text-align: center;
 }
 
-article h3 {
+h3,
+h2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -165,5 +166,52 @@ article hr {
   }
   .information {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  header h1,
+  header a {
+    font-size: 4.5rem;
+  }
+
+  article {
+    padding: 2vh 2vw;
+    margin: 1vh 5vw;
+  }
+
+  article img {
+    border: 1px grey solid;
+    width: 55vw;
+    margin: 1vh;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  p,
+  ul,
+  h3 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    flex-direction: column;
+  }
+  header h1,
+  header a {
+    text-align: center;
+    font-size: 4rem;
+  }
+  article {
+    padding: 1vh 1vw;
+    margin: 2vh auto;
+    width: auto;
+  }
+  body {
+    margin: auto;
   }
 }
