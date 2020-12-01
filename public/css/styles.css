@@ -12,6 +12,10 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+ul {
+  list-style-type: none;
+}
 /* clean code after */
 /* .flex-column {
         display: flex;
@@ -31,6 +35,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  justify-content: space-between;
 }
 
 header {
@@ -50,6 +55,20 @@ header a {
 }
 
 /*******************HOME PAGE*************** */
+
+#recipe {
+  padding: 2vh 2vw;
+  margin: 3vh 15vw;
+  background-color: whitesmoke;
+  border: 1px grey solid;
+  border-radius: 2vw;
+  text-align: center;
+}
+
+#recipe img {
+  border: 1px grey solid;
+  width: 35vw;
+}
 
 /* ******************HOME PAGE*************** */
 .about {
