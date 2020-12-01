@@ -16,6 +16,13 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about", {
     pageTitle: "About us",
+    admins:[
+      {
+        name:"Charlotte Oury" ,
+        age: 29
+
+      }
+    ]
   });
 });
 
