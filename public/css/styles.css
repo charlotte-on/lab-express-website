@@ -56,14 +56,14 @@ header {
 }
 
 header h1 {
-  font-size: 4rem;
+  font-size: 3.7vw;
   border-bottom: 4px double black;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
 }
 
 header a {
-  font-size: 3rem;
+  font-size: 2.8vw;
   padding-left: 3rem;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
@@ -264,10 +264,33 @@ footer {
   .person-info:last-child {
     margin-left: 0rem;
   }
+  header {
+    height: 15vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    border-bottom: 1px solid black;
+  }
+  
+  header a {
+    font-size: 2.5rem;
+    padding: 0 2vw 0 2vw;
+  }
+
   p,
   ul,
   h3 {
-    font-size: 1.7rem;
+    font-size: 1rem;
+  }
+
+  article {
+    top: 15vh;
+    width: auto;
+    padding: 2vh 2vw;
+    margin: 3vh 10vw;
   }
 }
 
@@ -275,15 +298,16 @@ footer {
   header {
     height: 15vh;
     flex-direction: column;
+    justify-content: center;
   }
 
   header h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     border-bottom: 1px solid black;
   }
   
   header a {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     padding: 0 2vw 0 2vw;
   }
 
@@ -307,10 +331,10 @@ footer {
   p,
   ul,
   h3 {
-    font-size: 1.7rem;
+    font-size: 1rem;
   }
   .about {
-    top: 20vh;
+    top: 15vh;
   }
   
   footer {
@@ -358,7 +382,7 @@ footer {
     margin: auto;
   }
   .about {
-    top: -5vh;
+    top: 0vh;
   }
   
   .person-info {
