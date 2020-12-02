@@ -339,7 +339,7 @@ footer {
   
   footer {
     top: 15vh;
-  };
+  }
 
   
 }
@@ -347,6 +347,7 @@ footer {
   html{
     font-size: 10px;
   }
+}
 
 @media (max-width: 375px) {
 
@@ -395,3 +396,4 @@ footer {
     top: 0;
   }
 
+}
