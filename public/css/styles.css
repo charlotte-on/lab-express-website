@@ -234,11 +234,11 @@ footer {
 /* ******************RESPONSIVE*************** */
 
 @media (max-width: 1000px) {
-  html {
-    font-size: 10px;
-  }
   .information {
     flex-direction: column;
+  }
+  .person-info {
+    max-width: 500px;
   }
   .person-info:last-child {
     margin-left: 0rem;
@@ -277,8 +277,13 @@ footer {
     font-size: 1.7rem;
   }
 }
+@media (max-width: 700px) {
+  html{
+    font-size: 10px;
+  }
 
 @media (max-width: 375px) {
+
   header {
     flex-direction: column;
   }
@@ -300,5 +305,9 @@ footer {
   }
   body {
     margin: auto;
+  }
+  .person-info {
+    max-width: 300px;
+    max-height: 300px;
   }
 }
