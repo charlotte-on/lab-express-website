@@ -201,7 +201,7 @@ article hr {
 
 .slideshow {
   position: relative;
-  margin: 2rem auto;
+  margin: 2rem auto 0rem;
   display: flex;
   justify-content: center;
 }
@@ -309,10 +309,15 @@ footer {
   h3 {
     font-size: 1.7rem;
   }
-
+  .about {
+    top: 20vh;
+  }
+  
   footer {
     top: 15vh;
   };
+
+  
 }
 @media (max-width: 700px) {
   html{
@@ -352,6 +357,10 @@ footer {
   body {
     margin: auto;
   }
+  .about {
+    top: -5vh;
+  }
+  
   .person-info {
     max-width: 300px;
     max-height: 300px;
