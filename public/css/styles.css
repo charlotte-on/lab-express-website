@@ -119,10 +119,6 @@ article hr {
   align-items: center;
 }
 
-.about + footer {
-  top: 0vh;
-}
-
 .heading-about {
   text-align: center;
   font-size: 4rem;
@@ -257,7 +253,18 @@ footer {
   margin-bottom: 1rem;
 }
 
+.about + footer {
+  top: 0vh;
+}
+
 /* ******************RESPONSIVE*************** */
+@media (max-width: 1400px) {
+ 
+    .about + footer {
+      top: 15vh;
+    
+}
+
 
 @media (max-width: 1000px) {
   .information {
@@ -297,6 +304,8 @@ footer {
     padding: 2vh 2vw;
     margin: 3vh 10vw;
   }
+  
+  
 }
 
 @media (max-width: 768px) {
@@ -342,7 +351,7 @@ footer {
     top: 15vh;
   }
 
-  footer {
+  footer, .about + footer {
     top: 15vh;
   }
 }
@@ -393,7 +402,7 @@ footer {
     max-height: 300px;
   }
 
-  footer {
+  footer, .about + footer {
     position: relative;
     top: 0;
   }
