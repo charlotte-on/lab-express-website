@@ -41,6 +41,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(199, 213, 243);
+  color: whitesmoke;
   position: fixed;
   height: 10vh;
   width: 100vw;
@@ -50,12 +51,16 @@ header {
 
 header h1 {
   font-size: 4rem;
-  text-decoration: underline;
+  border-bottom: 4px double black;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
 }
 
 header a {
   font-size: 3rem;
   padding-left: 3rem;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
 }
 
 /*******************HOME PAGE*************** */
@@ -78,7 +83,10 @@ h2 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: #E6D5E6;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
 }
 
 article img {
@@ -97,6 +105,8 @@ article hr {
 
 /* ******************ABOUT PAGE*************** */
 .about {
+  position: relative;
+  top: 10vh;
   justify-content: center;
   align-items: center;
 }
@@ -226,6 +236,8 @@ article hr {
 /* ******************FOOTER*************** */
 
 footer {
+  position: relative;
+  top: 10vh;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
