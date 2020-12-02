@@ -192,7 +192,7 @@ article hr {
 
 .slideshow {
   position: relative;
-  margin: 2rem auto;
+  margin: 2rem auto 0rem;
   display: flex;
   justify-content: center;
 }
