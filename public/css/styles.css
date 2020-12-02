@@ -119,6 +119,10 @@ article hr {
   align-items: center;
 }
 
+.about + footer {
+  top: 0vh;
+}
+
 .heading-about {
   text-align: center;
   font-size: 4rem;
