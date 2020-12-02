@@ -223,10 +223,15 @@ footer{
 
 @media (max-width: 1000px) {
   html{
-    font-size: 10px;
+    /* font-size: 10px; */
+    
   }
   .information {
     flex-direction: column;
+  }
+  .person-info {
+    max-width: 500px;
+    max-height: 500px;
   }
   .person-info:last-child{
     margin-left: 0rem;
@@ -263,6 +268,10 @@ footer{
 }
 
 @media (max-width: 375px) {
+  html{
+    font-size: 10px;
+    
+  }
   header {
     flex-direction: column;
   }
@@ -284,5 +293,9 @@ footer{
   }
   body {
     margin: auto;
+  }
+  .person-info {
+    max-width: 300px;
+    max-height: 300px;
   }
 }
