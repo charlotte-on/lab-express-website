@@ -29,11 +29,9 @@ ul {
 /*******************LAYOUTS*************** */
 
 body {
-  width: 80vw;
+  width: 100vw;
   height: 100vh;
-  margin: auto;
   background-color: rgb(230, 213, 230);
-  padding: 10px;
   justify-content: space-between;
 }
 
@@ -42,6 +40,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(199, 213, 243);
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  z-index: 1;
+  padding: 0 15vw;
 }
 
 header h1 {
@@ -57,8 +61,11 @@ header a {
 /*******************HOME PAGE*************** */
 
 article {
+  position: relative;
+  top: 10vh;
+  width: 55vw;
   padding: 2vh 2vw;
-  margin: 3vh 15vw;
+  margin: 3vh auto;
   background-color: whitesmoke;
   border: 1px grey solid;
   border-radius: 2vw;
