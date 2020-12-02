@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
 
 * {
   padding: 0;
@@ -15,7 +15,8 @@ a {
   text-decoration: none;
 }
 
-p, ul {
+p,
+ul {
   font-family: Castoro;
 }
 
@@ -47,7 +48,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(199, 213, 243);
-  color: #E6D5E6;
+  color: #e6d5e6;
   position: fixed;
   height: 10vh;
   width: 100vw;
@@ -90,7 +91,7 @@ h2 {
 
 h2 {
   font-size: 2.5rem;
-  color: #E6D5E6;
+  color: #e6d5e6;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
 }
@@ -116,6 +117,10 @@ article hr {
   top: 10vh;
   justify-content: center;
   align-items: center;
+}
+
+.about + footer {
+  top: 0vh;
 }
 
 .heading-about {
@@ -274,7 +279,7 @@ footer {
     font-size: 3rem;
     border-bottom: 1px solid black;
   }
-  
+
   header a {
     font-size: 2.5rem;
     padding: 0 2vw 0 2vw;
@@ -305,7 +310,7 @@ footer {
     font-size: 3rem;
     border-bottom: 1px solid black;
   }
-  
+
   header a {
     font-size: 2.5rem;
     padding: 0 2vw 0 2vw;
@@ -336,21 +341,18 @@ footer {
   .about {
     top: 15vh;
   }
-  
+
   footer {
     top: 15vh;
   }
-
-  
 }
 @media (max-width: 700px) {
-  html{
+  html {
     font-size: 10px;
   }
 }
 
 @media (max-width: 375px) {
-
   header {
     flex-direction: column;
     position: relative;
@@ -385,7 +387,7 @@ footer {
   .about {
     top: 0vh;
   }
-  
+
   .person-info {
     max-width: 300px;
     max-height: 300px;
@@ -395,5 +397,4 @@ footer {
     position: relative;
     top: 0;
   }
-
 }
